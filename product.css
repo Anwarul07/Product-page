@@ -1,4 +1,30 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: #d0eaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+ .product{
+  display: flex;
+  width: 90%;
+  max-width: 750px;
+
+ }
+ .gallery{
+  flex-basis: 47%;
+  background: #241e20;
+ }
+ .gallery img{
+ width: 100%;
+ display: flex;
+ padding-top:100px ;
+ }
